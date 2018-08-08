@@ -6,10 +6,10 @@ import (
 
 func main() {
 	temp := []int{}
-	matrix := make([][]int, 3)
+	matrix := make([][]int, 3) 
 
-	is := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
-	row := 0
+	is := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12} // slice to be splitted
+	row := 0 // row index for matrix
 	for i, v := range is {
 
 		temp = append(temp, v)
